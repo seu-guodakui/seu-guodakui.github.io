@@ -1,14 +1,6 @@
-auto: true
-
-markdown: rdiscount
-
-highlighter: 'pygments'
-#paginate: 8
 permalink: /:title
 
-name: “KivenGuo's Blog”
-title: KivenGuo's blog
-description: ALL KivenGuo.
-url: http://seu-guodakui.github.io
+title: BeiYuu.com
+url: http://beiyuu.com
 feed: /atom.xml
-author_info: <a href="http://seu-guodakui.github.io/">seu-guodakui</a>
+author_info: <a href="http://beiyuu.com/">BeiYuu</a>
