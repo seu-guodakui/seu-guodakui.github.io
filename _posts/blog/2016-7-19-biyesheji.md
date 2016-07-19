@@ -5,6 +5,6 @@ description: 本科毕业设计的东东
 category: blog
 ---
 毕业设计
-[ppt](../biyesheji.pptx "ppt")
+[ppt](../filestoragebiyesheji.pptx "ppt")
 供以后参考，里面还是有很多知识点的~
 [百度](http://www.baidu.com "百度")
