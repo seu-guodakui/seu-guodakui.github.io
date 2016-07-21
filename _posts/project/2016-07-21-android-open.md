@@ -16,7 +16,8 @@ Gson是Google提供的用来在Java对象和JSON数据之间进行映射的Java�
  	  	  
 	User user = new Gson().fromJson(userJSON, User.class); 
 
- 
+
+
 ##RETROFIT
 
 就如它网站上的介绍“Retrofit将你的REST API变为Java接口”一样，Retrofit把REST API返回的数据转化为Java对象方便操作，对于在项目中组织API调用，是一个不错的解决方案。其请求方法和相对URL都带有注解，使得代码变得更加简洁。使用注解，你可以很容易的添加一个请求主体，操纵URL或头文件，并添加查询参数。除此之外，每个函数可以定义为同步或异步，具有返回值的函数为同步执行，而异步函数没有返回值且最后一个参数为Callback对象。
@@ -81,6 +82,7 @@ EventBus是用于简化应用中各个部件之间通信的一个库。比如从
 	    }
 	
 	}
+
 
 
 ##ACTIVEANDROID
