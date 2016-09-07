@@ -2,7 +2,7 @@
 layout: post
 title: lying man的感悟和思考
 description: lying man对自己思维的影响，帮助很大
-category: 思考
+category: blog
 ---
 
 最近在看了一段时间熊猫TV的狼人杀节目 lying man，发现很有趣，对自己思维的影响还是蛮大的。
