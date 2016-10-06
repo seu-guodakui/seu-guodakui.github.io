@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div id="content"> 
+<div id="other_list"> 
+<div class="other"> 
+<ul> 
+<li><a href='{{ site.baseurl }}/mine/problem.html'>To Do List</a></li> 
+<li><a href='{{ site.baseurl }}/mine/music.html'>音乐</a></li> 
+<li><a href='{{ site.baseurl }}/mine/course_mark.html'>教程类链接</a></li> 
+<li><a href='{{ site.baseurl }}/mine/link.html'>在线书签</a></li> 
+<li><a href='{{ site.baseurl }}/mine/brainfuck.html'>brainfuck解释器</a></li> 
+<li><a href='{{ site.baseurl }}/mine/test.html'>测试</a></li> 
+</ul> 
+</div>
+</div>
+<div id=article>
+
+{% if page.title %}
+<div class='article_title'>
+<h1>{{ page.title }}</h1>
+<hr />
+</div>
+{% endif %}
+  <article class="page-content">
+    {{ content }}
+  </article>
+{% if page.comments %}
+{% include comments.html %}
+{% endif %}
+<br />
+</div>
+</div>

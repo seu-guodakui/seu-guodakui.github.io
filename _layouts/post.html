@@ -1,47 +1,24 @@
 ---
-layout: default
+layout: page
 ---
 
-<link rel="stylesheet" href="/js/prettify/prettify.css" />
-<style type="text/css">
-    body { background:#e8e8e8; }
-    @media screen and (max-width: 750px){
-        body { background:#fff; }
-    }
-    @media screen and (max-width: 1020px){
-        body { background:#fff; }
-    }
-</style>
+  <article class="page-content">
+    {{ content }}
+  </article>
 
-<div id="content">
-    <div class="entry">
-        <h1 class="entry-title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
-        <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
-        {{ content }}
-    </div>
-
-    <div class="sidenav">
-        <h2>Blog</h2>
-        <ul class="artical-list">
-        {% for post in site.categories.blog%}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-        </ul>
-
-        <h2>Dump</h2>
-        <ul class="artical-list">
-        {% for post in site.categories.dump%}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-        </ul>
-
-        <h2>Project</h2>
-        <ul class="artical-list">
-        {% for post in site.categories.project%}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-        </ul>
-    </div>
-</div>
-
-<script src="/js/post.js" type="text/javascript"></script>
+<hr />
+<span class='page_nav'>
+{% if page.previous %}
+上一篇: <a href='{{ site.baseurl }}{{ page.previous.url }}'>{{ page.previous.title }}</a>
+{% else %}
+上一篇: <span >这是第一篇</span>
+{% endif %}
+<br />
+{% if page.next %}
+下一篇: <a href='{{ site.baseurl }}{{ page.next.url }}'>{{ page.next.title }}</a>
+{% else %}
+下一篇: <span >这是最后一篇了</span>
+{% endif %}
+</span>
+<br />
+{% include comments.html %}
