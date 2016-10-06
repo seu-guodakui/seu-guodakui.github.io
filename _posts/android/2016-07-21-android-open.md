@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Android开发者必知的5个开源库
-category: project
+category: android
 description: Gson, Retrofit,EventBus,ActiveAndroid,UNIVERSAL IMAGE LOADER
 ---
 

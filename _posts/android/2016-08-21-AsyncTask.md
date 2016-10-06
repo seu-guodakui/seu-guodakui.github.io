@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AsyncTask
-category: project
+category: android
 description: AsyncTask思考
 ---
 

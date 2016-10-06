@@ -2,7 +2,7 @@
 layout: post
 title: 写给姑娘的20句话
 description: 摘抄的，送给女友
-category: blog
+category: 杂记
 ---
 ## 写给姑娘的20句话 
 1. 亲爱的姑娘，没有收拾残局的能力，就别放纵善变的情绪。

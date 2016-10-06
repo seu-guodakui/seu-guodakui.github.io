@@ -2,7 +2,7 @@
 layout: post
 title: 毕设展示
 description: 本科毕业设计的东东
-category: blog
+category: 杂记
 ---
 毕业设计
 [ppt](../filestoragebiyesheji.pptx "ppt")

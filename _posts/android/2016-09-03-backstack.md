@@ -1,7 +1,7 @@
 ---
 layout: post
 title: activity 的任务栈
-category: project
+category: android
 description: activity的四种栈类型
 ---
 
