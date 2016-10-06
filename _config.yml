@@ -4,7 +4,7 @@ destination: _site
 name: guodakui    #将会显示在左上角
 myname: guodakui  #你的名字，显示在页脚和文章开始
 email: 791529826@qq.com #邮箱
-duoshuo: Kevin_Guo #务必改成自己的多说账号或删除此项 
+duoshuo: Kevin_guo #务必改成自己的多说账号或删除此项 
 github: seu-guodakui   #github账号，用于构建github链接
 project: oschinablog #github上的仓库名
 paginate: 20   #每页文章个数
